@@ -1,0 +1,57 @@
+.massage{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.massage__top{
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+}
+.massage__top>form{
+    flex: 1;
+    display: flex;
+}
+.massage__top> form > input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+}
+
+.massage__top > form > button {
+    display: none;
+}
+
+.massage__input{
+    flex: 1;
+}
+
+.massage__bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.massage__option{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+
+.massage__option>h3{
+    font-size: medium;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.massage__option:hover{
+    background-color: #eff2f5;
+    border-radius: 20px;
+}
